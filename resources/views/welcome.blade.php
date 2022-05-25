@@ -13,7 +13,7 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About US</a></li>
-          <li><a href="#">Servises</a></li>
+          <li><a href="#">Services</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">Reservation</a></li>
@@ -28,6 +28,29 @@
       <div class="info">
         <a href="#">More Info</a>
       </div>
+      </div>
+    </div>
+
+    <div >
+      <div class="booktable" >
+        <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
+        <h1>heading</h1>
+        <p>paragraph </p>
+        
+        <a class="table" href="#"> Book A Table</a>
+      </div>
+      <div class="booktable">
+      <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
+      <h1>heading</h1>
+      <p>paragraph</p>
+      <a class="table" href="#"> Book A Table</a>
+      </div>
+
+      <div class="booktable">
+      <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
+      <h1>heading</h1>
+      <p>paragraph</p>
+      <a class="table" href="#"> Book A Table</a>
       </div>
     </div>
 </body>

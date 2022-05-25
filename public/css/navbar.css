@@ -1,6 +1,7 @@
 * {
    
    font-family: sans-serif;
+   
 }
 
 .banner{
@@ -79,4 +80,36 @@
 .content a:hover{
   background-color: rgb(77, 87, 95);
 }
+
+.booktable{
+  background-color: darkslategray;
+  
+}
+
+.booktable {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin: 0 30px ;
+  justify-content:center ;
+  
+  
+  
+}
+
+.table {
+  text-decoration: none;
+  border-style: solid;
+  border-color: gold;
+  color: aqua;
+  transition: 0.7s;
+  padding: 10px;
+}
+.table:hover{
+  background-color: rgb(136, 125, 175);
+}
+
+
+
+
 
