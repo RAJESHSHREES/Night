@@ -60,27 +60,7 @@
     </section>
 
 
-  
-      <!-- <div class="booktable" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
-        <h1>heading</h1>
-        <p>paragraph </p>
-        
-        <a class="table" href="#"> Book A Table</a>
-      </div>
-      <div class="booktable">
-      <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
-      <h1>heading</h1>
-      <p>paragraph</p>
-      <a class="table" href="#"> Book A Table</a>
-      </div>
 
-      <div class="booktable">
-      <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
-      <h1>heading</h1>
-      <p>paragraph</p>
-      <a class="table" href="#"> Book A Table</a>
-      </div> -->
    
 </body>
 </html>
