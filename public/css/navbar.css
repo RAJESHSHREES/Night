@@ -1,10 +1,13 @@
 * {
-   
+   margin: 0;
+   padding: 0;
    font-family: sans-serif;
    
 }
 
-.banner{
+/* -----------Header Section----------------- */
+
+.header{
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75) ), url('../images/background.jpg') ;
@@ -30,10 +33,11 @@
   display: inline-block;
   margin: 0 20px;
   position: relative;
+  font-size: 15px;
 }
 .nav-bar ul li a {
   text-decoration: none;
-  color: rgb(255, 0, 212);
+  color: rgb(147, 156, 165);
   text-transform: uppercase;
 
 }
@@ -52,62 +56,90 @@
   width: 100%;
 }
 
-.content{
-  width: 100%;
-  text-align: center;
+/* ----------------Content Section--------------- */
+
+.text-box{
+  width: 90%;
+  color: rgb(147, 156, 165);
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  color: rgb(212, 181, 181);
-
-  
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
   
 }
-.content  a {
-  border-style: solid;
-  border-color: rgb(165, 51, 108);
-  border-width: 2px;
-  top: 50px;
+
+.text-box p{
+  font-size: 20px;
+}
+
+.text-box h1{
+  font-size: 30px;
+  margin: 10px 0 40px;
+}
+
+.hero-btn {
+  
   text-decoration: none;
-  transition: 0.7s;
-  padding: 15px;
-  color: beige;
-  
-  
-}
-
-
-.content a:hover{
-  background-color: rgb(77, 87, 95);
-}
-
-.booktable{
-  background-color: darkslategray;
-  
-}
-
-.booktable {
-  list-style: none;
-  display: inline-block;
+  color: azure;
+  border: 1px solid rgb(153, 131, 131);
+  padding: 10px 30px;
+  font-size: 13px;
+  background: transparent;
   position: relative;
-  margin: 0 30px ;
-  justify-content:center ;
+  cursor: pointer;
   
   
   
 }
 
-.table {
-  text-decoration: none;
-  border-style: solid;
-  border-color: gold;
-  color: aqua;
-  transition: 0.7s;
+
+.hero-btn:hover{
+  background-color: rgb(166, 179, 189);
+  transition: 1s;
+  color: rgb(24, 26, 23);
+}
+
+
+/* -------------booktable----------- */
+
+.book-table{
+  background-color: rgb(28, 47, 63);
+}
+
+.booktable-row{
+  margin: 10px 30px 30px 53px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.booktable-row img {
+  width: 350px;
+  height: 300px;
+}
+
+.booktable-row h1{
+  font-size: 30px;
+  color: rgb(147, 156, 165);
+  font-weight: 600;
+}
+
+.booktable-row p{
+  color: rgb(147, 156, 165);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
   padding: 10px;
+  margin-bottom: 10px;
 }
-.table:hover{
-  background-color: rgb(136, 125, 175);
-}
+
+
+
+
 
 
 

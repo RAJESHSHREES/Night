@@ -8,7 +8,8 @@
   <link rel="stylesheet" href = "/css/navbar.css" >
 </head>
 <body>
-   <div class="banner">
+  <!-- -----------Header Section------------ -->
+   <section class="header">
       <div class="nav-bar">
         <ul>
           <li><a href="#">Home</a></li>
@@ -20,19 +21,47 @@
           <li><a href="#">Contact Us</a></li>
         </ul>
       </div>
-    <div class="content">
-      <div class="section">
+    <div class="text-box">
         <p>ENJOY THE MUSIC</p>
         <h1>MAKE YOUR NIGHT</h1>
-      </div>
-      <div class="info">
-        <a href="#">More Info</a>
-      </div>
-      </div>
-    </div>
+        <a href="#" class="hero-btn" >More Info</a>
+      
+    </section>
 
-    <div >
-      <div class="booktable" >
+
+    <!-- ---------------Content Section--------------->
+
+
+    <section class="book-table">
+      <div class="booktable-row">
+        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <h1>NON STOP PARTY</h1>
+        <p>Enjoy the event throughout the entire night. </p>
+        
+        <a class="hero-btn" href="#"> Book A Table</a>
+      </div>
+
+      <div class="booktable-row">
+        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <h1>SPECIAL PROGRAM</h1>
+        <p>Enjoy the special progaram every night. </p>
+        
+        <a class="hero-btn" href="#"> Book A Table</a>
+      </div>
+
+      <div class="booktable-row">
+        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <h1>TOP RESIDENCE</h1>
+        <p>Enjoy the event throughout the entire night </p>
+        
+        <a class="hero-btn" href="#"> Book A Table</a>
+      </div>
+
+    </section>
+
+
+  
+      <!-- <div class="booktable" >
         <img src="{{ asset('images/table2.jpg') }}" alt="" width="350px" height="300px">
         <h1>heading</h1>
         <p>paragraph </p>
@@ -51,7 +80,7 @@
       <h1>heading</h1>
       <p>paragraph</p>
       <a class="table" href="#"> Book A Table</a>
-      </div>
-    </div>
+      </div> -->
+   
 </body>
 </html>
