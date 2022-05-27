@@ -6,27 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Club</title>
   <link rel="stylesheet" href = "/css/navbar.css" >
+  <link rel="stylesheet" href="/css/reservation.css">
+  
+  </style>
 </head>
 <body>
   <!-- -----------Header Section------------ -->
+
+  @section('header')
    <section class="header">
       <div class="nav-bar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About US</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="aboutus">About US</a></li>
+          <li><a href="/service">Services</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/event">Events</a></li>
+          <li><a href="/reservation">Reservation</a></li>
+          <li><a href="/contactus">Contact Us</a></li>
         </ul>
       </div>
     <div class="text-box">
         <p>ENJOY THE MUSIC</p>
         <h1>MAKE YOUR NIGHT</h1>
         <a href="#" class="hero-btn" >More Info</a>
-      
+      </div>
     </section>
+    @show
 
 
     <!-- ---------------Content Section--------------->
@@ -56,10 +62,39 @@
         
         <a class="hero-btn" href="#"> Book A Table</a>
       </div>
-
-    </section>
-
-
+      <!------------form section------------>
+<section class="reservation">
+  <div class="title">TABLE RESERVATION</div>
+  <br>
+  <FORM action="#">
+     <div class="user-details">
+       <div class="input-box">
+         <span class="details">Name:</span><br>
+         
+         <input type="text" class="latter" placeholder="Enter your name"required>
+       </div>
+       <br>
+       <div class="input-box">
+         <span class="details">E-mail:</span><br>
+         <input type="text" class="latter" placeholder="Enter your email"required>
+       </div>
+       <br>
+       <div class="input-box">
+         <span class="details">Phone No:</span><br>
+         <input type="number" class="latter"  placeholder="Enter your phone number"required>
+       </div>
+       <br>
+       <div class="input-box">
+         <span class="details">Message:</span><br>
+         <input type="text" class="latter" placeholder="Enter your message"required>
+       </div>
+       <br>
+       <div class="button">
+         <input type="submit" class="value" value="Send message">
+       </div> <br>
+     </div>
+  </FORM>
+</section>
 
    
 </body>
